@@ -9,8 +9,19 @@ import SwiftUI
 
 struct SecondExpensesView: View {
     var body: some View {
-        List{
-            Text("Expenses")
+        VStack{
+            Spacer(minLength: 50)
+            Button("Show all") {
+                
+            }
+            .padding(10)
+            .colorMultiply(.purple)
+            Spacer()
+            List{
+
+                Text("Expenses")
+            }
+            .foregroundColor(.purple)
         }
     }
 }
